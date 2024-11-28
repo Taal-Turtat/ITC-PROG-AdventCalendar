@@ -21,7 +21,7 @@ const calendarMake = () => {
     while(i <= dayEnds+14){
         strShow += "<tr>";
         for(let j=0;j<7;j++){
-            let stSr = "<td class='"+ strList[j]+"'";
+            let str = "<td class='"+ strList[j]+"'";
             if(i > dayShowingEnd+dateStarts){str += "class='pseudo'"}
             if(i > dateStarts && i <= (dayEnds+dateStarts)){ str += ">"+ (i-dateStarts) +"</td>"; }
             else{str += ">" + " " + "</td>";}
