@@ -1,6 +1,6 @@
 /* 汎用CSS */
 
-.welcome{
+  .welcome{
     color:#2f9dd4;
     font-family: メイリオ;
     font-size: 28px;
@@ -103,92 +103,23 @@
   .heads {
     width : 150px;
     height : 60px;
+    font-size : 12px;
+    font-family : 'Sacramento', cursive;
+    border : solid 1px #000;
   }
 
   .days{
     width : 150px;
     height : 150px;
+    font-size : 12px;
+    font-family : 'Bookman Old Style', sans-selif;
+    border: solid 1px #000;
   }
 
   #calendar{
     border : solid 2px #000;
     border-collapse: collapse;
-  }
-  
-  /* リスト関係 */
-  
-  .listPadding{
-    padding-left: 30px;
-  }
-  
-  .square{
-    list-style: square;
-  }
-  
-  .disc{
-    list-style: disc;
-  }
-  
-  /* 画像関係 */
-  
-  .imageLeft{
-    text-align: left;
-  }
-  
-  .imageRight{
-    text-align: right;
-  }
-  
-  .imageCenter{
+    margin: 0 auto;
     text-align: center;
   }
   
-  .imageMarginUB{
-    margin-up: 20px;
-    margin-bottom: 20px;
-  }
-  
-  footer{
-    text-align:center;
-    background-color: #3be3bc;
-  }
-  
-  #pageHead.globalNavi{
-    border:solid #41a3bb;
-    border-width:1px 0;
-    padding:10px;
-}
-
-#pageHead .globalnavi ul li{
-    list-style:none;
-    width: 196px;
-    float: left;
-    border-left: solid 1px #336699;
-    padding: 0 10px;
-    box-sizing:border-box;
-    text-align:center;
-    font-size:14px;
-    line-height: 1.429;
-}
-
-#pageHead .globalNavi ul:after{
-    content:"";
-    clear:both;
-    display:block;
-}
-
-#pageHead .globalNavi ul li:first-child{
-    border-left:none;
-}
-
-#pageHead .globalNavi ul li a{
-    color: inherit;
-    text-decoration: none;
-    display: block;
-    padding: 7px 0;
-}
-
-#pageHead .globalNavi ul li a:hover,
-#pageHead .globalNavi ul li.current a{
-    background-color: #3193ab;
-}
