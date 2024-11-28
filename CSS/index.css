@@ -86,6 +86,19 @@
     text-align:center;
     text-height: 1.5em;
   }
+
+  /* カレンダー */
+  .Sat{
+    color : #336699;
+  }
+
+  .Sun{
+    color : #d81600;
+  }
+
+  .pseudo{
+    color: rgb(0 0 0 / 50%);
+  }
   
   /* リスト関係 */
   
