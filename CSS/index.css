@@ -89,25 +89,30 @@
 
   /* カレンダー */
   .Sat{
-    color : #336699;
+    background-color: #336699;
   }
 
   .Sun{
-    color : #d81600;
+    background-color : #d81600;
   }
 
   .pseudo{
-    color: rgb(0 0 0 / 50%);
+    background-color: #888;
   }
 
   .heads {
-    width : 200px;
-    height : 80px;
+    width : 150px;
+    height : 60px;
   }
 
   .days{
-    width : 200px;
-    height : 200px;
+    width : 150px;
+    height : 150px;
+  }
+
+  #calendar{
+    border : solid 2px #000;
+    border-collapse: collapse;
   }
   
   /* リスト関係 */
