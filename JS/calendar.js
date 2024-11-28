@@ -16,12 +16,12 @@ const calendarMake = () => {
     const dayEnds = 31;
     const dayShowingEnd = 25;
     const dateStarts = 6; // 0:Mon ... 6:Sun
-    let i = 0;
+    let i = 1;
     strShow += "<tbody>";
     while(i <= dayEnds+14){
         strShow += "<tr>";
         for(let j=0;j<7;j++){
-            let str = "<td class='"+ strList[j]+"'";
+            let stSr = "<td class='"+ strList[j]+"'";
             if(i > dayShowingEnd+dateStarts){str += "class='pseudo'"}
             if(i > dateStarts && i <= (dayEnds+dateStarts)){ str += ">"+ (i-dateStarts) +"</td>"; }
             else{str += ">" + " " + "</td>";}
