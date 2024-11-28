@@ -4,13 +4,13 @@ const calendarMake = () => {
     /* カレンダーを表示する関数 */
     let strList = ["Mon","Tue","Wed","Thr","Fri","Sat","Sun"];
     //頭の処理
-    calendar.innerHTML += "<table><thead>";
+    calendar.innerHTML += "<table><thead><tr>";
     strList.forEach(date => {
         let str = "<th class='"+ date +"'>";
         str += date + "</th>";
         calendar.innerHTML += str;
     });
-    calendar.innerHTML += "</thead>"
+    calendar.innerHTML += "</tr></thead>"
     //カレンダー部分の処理
     const dayStarts = 1;
     const dayEnds = 31;
