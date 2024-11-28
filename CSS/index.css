@@ -1,0 +1,166 @@
+/* 汎用CSS */
+
+.welcome{
+    color:#2f9dd4;
+    font-family: メイリオ;
+    font-size: 28px;
+    margin-left: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .top{
+    margin-up: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .texts{
+    margin-bottom: 50px;
+  }
+  
+  .emphasize{
+    color:#2f9dd4;
+    font-family: メイリオ;
+    font-size: 28px;
+    margin: 15px;
+    margin-left:20px;
+  }
+  
+  .large{
+    color:#2f9dd4;
+    font-family: メイリオ;
+    font-size: 24px;
+    margin: 15px;
+  }
+  
+  .list{
+    margin-left:30px;
+  }
+  
+  .demphasize{
+    color:#2f9dd4;
+    font-family: メイリオ;
+    font-size: 28px;
+    border-bottom: dashed 1px #2f9dd4;
+    margin: 15px;
+    margin-left:20px;
+  }
+  
+  .section{
+    color: #5da9cf;
+    font-family: メイリオ;
+    font-size: 21px;
+    border-bottom: dashed 1px #2f9dd4;
+    margin: 15px;
+    margin-left:10px;
+  }
+  
+  .subsection{
+    color: #5da9cf;
+    font-family: メイリオ;
+    font-size: 18px;
+    border-bottom: dashed 1px #2f9dd4;
+    margin: 15px;
+    margin-left:10px;
+  }
+  
+  .subsubsection{
+    color: #5da9cf;
+    font-family: メイリオ;
+    font-size: 16px;
+    border-bottom: dashed 1px #2f9dd4;
+    margin: 15px;
+    margin-left:10px;
+  }
+  
+  .description{
+    font-size: 14px;
+    margin-left:20px;
+    text-height: 1.5em;
+  }
+  
+  .descriptionCenter{
+    font-size: 14px;
+    margin: 10px;
+    margin-left:20px;
+    text-align:center;
+    text-height: 1.5em;
+  }
+  
+  /* リスト関係 */
+  
+  .listPadding{
+    padding-left: 30px;
+  }
+  
+  .square{
+    list-style: square;
+  }
+  
+  .disc{
+    list-style: disc;
+  }
+  
+  /* 画像関係 */
+  
+  .imageLeft{
+    text-align: left;
+  }
+  
+  .imageRight{
+    text-align: right;
+  }
+  
+  .imageCenter{
+    text-align: center;
+  }
+  
+  .imageMarginUB{
+    margin-up: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer{
+    text-align:center;
+    background-color: #3be3bc;
+  }
+  
+  #pageHead.globalNavi{
+    border:solid #41a3bb;
+    border-width:1px 0;
+    padding:10px;
+}
+
+#pageHead .globalnavi ul li{
+    list-style:none;
+    width: 196px;
+    float: left;
+    border-left: solid 1px #336699;
+    padding: 0 10px;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:14px;
+    line-height: 1.429;
+}
+
+#pageHead .globalNavi ul:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+#pageHead .globalNavi ul li:first-child{
+    border-left:none;
+}
+
+#pageHead .globalNavi ul li a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0;
+}
+
+#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li.current a{
+    background-color: #3193ab;
+}
