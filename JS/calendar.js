@@ -31,3 +31,5 @@ const calendarMake = () => {
     }
     calendar.innerHTML += "</tbody></table>";
 }
+
+calendarMake();
