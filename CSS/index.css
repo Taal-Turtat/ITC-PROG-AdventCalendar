@@ -103,7 +103,7 @@
   .heads {
     width : 150px;
     height : 60px;
-    font-size : 12px;
+    font-size : 24px;
     font-family : 'Sacramento', cursive;
     border : solid 1px #000;
   }
@@ -111,7 +111,8 @@
   .days{
     width : 150px;
     height : 150px;
-    font-size : 12px;
+    text-align : right;
+    font-size : 28px;
     font-family : 'Bookman Old Style', sans-selif;
     border: solid 1px #000;
   }
