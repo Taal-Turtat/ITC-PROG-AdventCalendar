@@ -89,7 +89,7 @@
     background-image:url("./../Figure/pattern.png");
     margin: 0 auto;
     width : 100vw;
-    height : 10vw;
+    height : 4vw;
     background-repeat:repeat repeat;
     /*background: linear-gradient(0deg,rgba(255,255,255,0) 50%, #fff 80%);*/
   }
