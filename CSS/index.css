@@ -89,12 +89,11 @@
 
   .gradation{
     background-image:url("./../Figure/pattern.png");
-    width : 100vw;
-    height : 10vw;
     margin: 0 auto;
+    padding : 100px;
+    height : 10vw;
     background-repeat:repeat repeat;
-    position: relative;
-    background: linear-gradient(0deg,rgba(255,255,255,0) 0, #fff 100%);
+    background: linear-gradient(0deg,rgba(255,255,255,0) 50%, #fff 80%);
   }
 
   /* カレンダー */
