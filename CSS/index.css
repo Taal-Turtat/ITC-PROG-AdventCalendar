@@ -84,7 +84,7 @@
     padding : 40px;
     background-image:url("./../Figure/window.png");
     background-repeat:no-repeat no-repeat;
-    background-size:auto 100%;
+    background-size:auto auto;
   }
   
   .descriptionCenter{
@@ -123,7 +123,7 @@
     font-family : 'Sacramento', cursive;
     border : solid 1px #000;
     background-color:antiquewhite;
-    background-image:url("./../Figure/window.png");
+    background-image:url("./../Figure/white.png");
     background-repeat:repeat repeat;
   }
 
@@ -135,7 +135,7 @@
     font-family : 'Bookman Old Style', sans-selif;
     border: solid 1px #000;
     background-color:azure;
-    background-image:url("./../Figure/window.png");
+    background-image:url("./../Figure/white.png");
     background-repeat:repeat repeat;
   }
 
