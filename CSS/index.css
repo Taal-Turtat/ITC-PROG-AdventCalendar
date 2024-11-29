@@ -47,7 +47,7 @@
   
   .section{
     color: #5da9cf;
-    font-family: "Hannotate SC";
+    font-family: メイリオ;
     font-size: 21px;
     border-bottom: dashed 1px #2f9dd4;
     margin: 15px;
@@ -73,7 +73,7 @@
   }
   
   .description{
-    font-family : "Hannotate SC",cursive;
+    font-family : メイリオ ,cursive;
     font-size: 28px;
     margin-left:20px;
   }
