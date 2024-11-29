@@ -124,6 +124,14 @@
     border: solid 1px #000;
   }
 
+  .bg{
+    width : 100vw;
+    height : 270px;
+    background-image:url("./../Figure/pattern.png");
+    background-repeat:repeat repeat;
+    object-fit: cover;
+  }
+
   #calendar{
     border : solid 2px #000;
     border-collapse: collapse;
@@ -136,7 +144,4 @@
     height : 210px;
     margin: 0 auto;
     display:block;
-    background-image:url("./../Figure/pattern.png");
-    background-repeat:repeat repeat;
-    object-fit: cover;
   }
