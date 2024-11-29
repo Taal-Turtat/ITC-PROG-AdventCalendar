@@ -10,7 +10,6 @@
   }
   
   .top{
-    margin-up: 50px;
     margin-bottom: 50px;
   }
   
@@ -74,9 +73,9 @@
   }
   
   .description{
+    font-family : "Hannotate SC";
     font-size: 14px;
     margin-left:20px;
-    text-height: 1.5em;
   }
   
   .descriptionCenter{
@@ -84,7 +83,6 @@
     margin: 10px;
     margin-left:20px;
     text-align:center;
-    text-height: 1.5em;
   }
 
   .gradation{
