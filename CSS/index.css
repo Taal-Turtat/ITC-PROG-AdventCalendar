@@ -91,7 +91,7 @@
     width : 100vw;
     height : 10vw;
     background-repeat:repeat repeat;
-    background: linear-gradient(0deg,rgba(255,255,255,0) 50%, #fff 80%);
+    /*background: linear-gradient(0deg,rgba(255,255,255,0) 50%, #fff 80%);*/
   }
 
   /* カレンダー */
