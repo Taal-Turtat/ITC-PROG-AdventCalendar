@@ -132,6 +132,21 @@
     object-fit: cover;
   }
 
+  .bgsmall{
+    width : 100vw;
+    height : 90px;
+    background-image:url("./../Figure/pattern.png");
+    background-repeat:repeat repeat;
+    object-fit: cover;
+  }
+
+  .calendarsection{
+    width : auto;
+    height : 60px;
+    margin: 0 auto;
+    display: block;
+  }
+
   #calendar{
     border : solid 2px #000;
     border-collapse: collapse;
