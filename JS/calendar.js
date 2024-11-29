@@ -12,8 +12,7 @@ const calendarMake = () => {
     });
     strShow += "</tr></thead>"
     //カレンダー部分の処理
-    const dayStarts = 1;
-    const dayEnds = 31;
+    const available = [1];
     const dayShowingEnd = 25;
     const dateStarts = 6; // 0:Mon ... 6:Sun
     let i = 1;
@@ -23,7 +22,7 @@ const calendarMake = () => {
         for(let j=0;j<7;j++){
             let str = "<td class='days "+ strList[j];
             //if(i > dayShowingEnd+dateStarts){str += " pseudo"}
-            if(i > dateStarts && i <= (dayShowingEnd+dateStarts)){ str += "'>"+ (i-dateStarts) +"</td>"; }
+            if(i > dateStarts && i <= (dayShowingEnd+dateStarts)){ str += "'>"+ "<a href='" + getItem(i-dateStarts) + "'>" + (i-dateStarts) +"</a></td>"; }
             else{str += "'>" + " " + "</td>";}
             strShow += str;
             i++;
@@ -32,6 +31,12 @@ const calendarMake = () => {
     }
     strShow += "</tbody></table>";
     calendar.innerHTML = strShow;
+}
+
+const getItem = async(i) =>{
+    const response = await fetch("./JSON/address.json?v=" + Date.now());
+    const data = await response.json();
+    return data[i];
 }
 
 calendarMake();
