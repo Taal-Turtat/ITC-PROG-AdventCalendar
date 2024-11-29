@@ -91,9 +91,10 @@
     background-image:url("./../Figure/pattern.png");
     width : 100vw;
     height : 10vw;
+    margin: 0 auto;
     background-repeat:repeat repeat;
     position: relative;
-    background: linear-gradient(0deg,rgba(255,255,255,0) 0, #fff 80%);
+    background: linear-gradient(0deg,rgba(255,255,255,0) 0, #fff 100%);
   }
 
   /* カレンダー */
