@@ -145,6 +145,7 @@
     height : 60px;
     margin: 0 auto;
     display: block;
+    text-align:center;
   }
 
   #calendar{
