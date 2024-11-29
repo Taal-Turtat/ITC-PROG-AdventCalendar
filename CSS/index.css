@@ -134,6 +134,7 @@
   #title{
     width : 100vw;
     margin: 0 auto;
+    display:block;
     background-image:url("./../Figure/pattern.png");
     background-repeat:repeat repeat;
   }
