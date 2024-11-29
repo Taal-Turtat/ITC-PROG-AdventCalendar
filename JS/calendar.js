@@ -24,7 +24,7 @@ const calendarMake = () => {
             let str = "<td class='days "+ strList[j];
             if(i > dayShowingEnd+dateStarts){str += " pseudo"}
             if(i > dateStarts && i <= (dayEnds+dateStarts)){ str += "'>"+ (i-dateStarts) +"</td>"; }
-            else{str += ">" + " " + "</td>";}
+            else{str += "'>" + " " + "</td>";}
             strShow += str;
             i++;
         }
