@@ -133,9 +133,10 @@
   
   #title{
     width : 100vw;
-    height : 210px;
+    height : 180px;
     margin: 0 auto;
     display:block;
     background-image:url("./../Figure/pattern.png");
     background-repeat:repeat repeat;
+    object-fit: cover;
   }
