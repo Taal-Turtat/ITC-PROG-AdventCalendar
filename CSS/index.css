@@ -89,6 +89,8 @@
 
   .gradation{
     background-image:url("./../Figure/pattern.png");
+    width : 100vw;
+    height : 10vw;
     background-repeat:repeat repeat;
     position: relative;
   }
@@ -96,10 +98,12 @@
   .gradation:before{
     content: ""; 
     width : 100vw;
-    height : 10vw;
+    height : 100vw;
     position :absolute;
     display: block;
     background: linear-gradient(rgba(255,255,255,0) 0, #fff 80%);
+    top: 0;
+    left: 0;
   }
 
   /* カレンダー */
