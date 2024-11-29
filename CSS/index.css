@@ -1,5 +1,9 @@
 /* 汎用CSS */
 
+  *{
+    background-image:url("./../Figure/pattern.png");
+    background-repeat:repeat repeat;
+  }
   .welcome{
     color:#2f9dd4;
     font-family: メイリオ;
@@ -75,7 +79,8 @@
   .description{
     font-family : メイリオ ,cursive;
     font-size: 28px;
-    margin-left:20px;
+    margin-left:40px;
+    margin-right:40px;
   }
   
   .descriptionCenter{
@@ -113,6 +118,7 @@
     font-size : 24px;
     font-family : 'Sacramento', cursive;
     border : solid 1px #000;
+    background-color:antiquewhite;
   }
 
   .days{
@@ -122,21 +128,18 @@
     font-size : 28px;
     font-family : 'Bookman Old Style', sans-selif;
     border: solid 1px #000;
+    background-color:azure;
   }
 
   .bg{
     width : 100vw;
     height : 270px;
-    background-image:url("./../Figure/pattern.png");
-    background-repeat:repeat repeat;
     object-fit: cover;
   }
 
   .bgsmall{
     width : 100vw;
     height : 90px;
-    background-image:url("./../Figure/pattern.png");
-    background-repeat:repeat repeat;
     object-fit: cover;
   }
 
