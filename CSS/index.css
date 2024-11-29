@@ -87,13 +87,28 @@
     text-height: 1.5em;
   }
 
+  .gradation{
+    background-image:url("./../Figure/pattern.png");
+    background-repeat:repeat repeat;
+    position: relative;
+  }
+
+  .gradation:before{
+    content: ""; 
+    width : 100%;
+    height : 100%;
+    position :absolute;
+    display: block;
+    background: linear-gradient(rgba(255,255,255,0) 0, #fff 80%);
+  }
+
   /* カレンダー */
   .Sat{
-    background-color: #336699;
+    color: #336699;
   }
 
   .Sun{
-    background-color : #d81600;
+    color : #d81600;
   }
 
   .pseudo{
@@ -126,4 +141,6 @@
   
   #title{
     width : 100vw;
+    background-image:url("./../Figure/pattern.png");
+    background-repeat:repeat repeat;
   }
