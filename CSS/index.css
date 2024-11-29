@@ -79,8 +79,12 @@
   .description{
     font-family : メイリオ ,cursive;
     font-size: 28px;
-    margin-left:40px;
-    margin-right:40px;
+    margin-left:100px;
+    margin-right:100px;
+    padding : 40px;
+    background-image:url("./../Figure/window.png");
+    background-repeat:repeat repeat;
+    background-size:auto 100%;
   }
   
   .descriptionCenter{
