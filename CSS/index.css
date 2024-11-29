@@ -157,6 +157,8 @@
     margin: 0 auto;
     display: block;
     text-align:center;
+    background-image:url("./../Figure/white.png");
+    background-repeat:repeat repeat;
   }
 
   #calendar{
@@ -170,5 +172,7 @@
     width : auto;
     height : 210px;
     margin: 0 auto;
-    display:block;
+    display:block;    
+    background-image:url("./../Figure/white.png");
+    background-repeat:repeat repeat;
   }
