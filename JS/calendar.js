@@ -18,12 +18,12 @@ const calendarMake = () => {
     const dateStarts = 6; // 0:Mon ... 6:Sun
     let i = 1;
     strShow += "<tbody>";
-    while(i <= 42){
+    while(i <= 35){
         strShow += "<tr>";
         for(let j=0;j<7;j++){
             let str = "<td class='days "+ strList[j];
-            if(i > dayShowingEnd+dateStarts){str += " pseudo"}
-            if(i > dateStarts && i <= (dayEnds+dateStarts)){ str += "'>"+ (i-dateStarts) +"</td>"; }
+            //if(i > dayShowingEnd+dateStarts){str += " pseudo"}
+            if(i > dateStarts && i <= (dayShowingEnd+dateStarts)){ str += "'>"+ (i-dateStarts) +"</td>"; }
             else{str += "'>" + " " + "</td>";}
             strShow += str;
             i++;
