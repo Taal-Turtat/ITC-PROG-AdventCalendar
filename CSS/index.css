@@ -84,7 +84,7 @@
     padding : 40px;
     background-image:url("./../Figure/window.png");
     background-repeat:no-repeat no-repeat;
-    background-size:auto auto;
+    background-size:cover; 
   }
   
   .descriptionCenter{
