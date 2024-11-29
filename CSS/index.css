@@ -83,7 +83,7 @@
     margin-right:100px;
     padding : 40px;
     background-image:url("./../Figure/window.png");
-    background-repeat:repeat repeat;
+    background-repeat:no-repeat no-repeat;
     background-size:auto 100%;
   }
   
@@ -123,6 +123,8 @@
     font-family : 'Sacramento', cursive;
     border : solid 1px #000;
     background-color:antiquewhite;
+    background-image:url("./../Figure/window.png");
+    background-repeat:repeat repeat;
   }
 
   .days{
@@ -133,6 +135,8 @@
     font-family : 'Bookman Old Style', sans-selif;
     border: solid 1px #000;
     background-color:azure;
+    background-image:url("./../Figure/window.png");
+    background-repeat:repeat repeat;
   }
 
   .bg{
