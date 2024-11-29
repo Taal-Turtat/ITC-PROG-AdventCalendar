@@ -88,7 +88,7 @@
   .gradation{
     background-image:url("./../Figure/pattern.png");
     margin: 0 auto;
-    padding : 100px;
+    width : 100vw;
     height : 10vw;
     background-repeat:repeat repeat;
     background: linear-gradient(0deg,rgba(255,255,255,0) 50%, #fff 80%);
