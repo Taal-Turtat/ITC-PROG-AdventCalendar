@@ -132,8 +132,8 @@
   }
   
   #title{
-    width : 100vw;
-    height : 180px;
+    width : auto;
+    height : 210px;
     margin: 0 auto;
     display:block;
     background-image:url("./../Figure/pattern.png");
